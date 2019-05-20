@@ -8,7 +8,7 @@ public class Prims
 		Scanner sn=new Scanner(System.in);
 		System.out.print("Enter the no. of vertices : ");
 		int n=sn.nextInt();
-		for(int i=1;i<n;i++)
+		for(int i=1;i<=n;i++)
 			vis[i]=0;
 		System.out.println("Enter the cost matrix : ");
 		for(int i=1;i<=n;i++)
