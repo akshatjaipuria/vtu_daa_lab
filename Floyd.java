@@ -22,6 +22,7 @@ public class Floyd
 	}
 	public static void floyd(int n)
 	{
+		//simply implementing 3 nested loops and checking the combination of paths as described by Floyd's algorithm
 		for(int k=1;k<=n;k++)
 			for(int i=1;i<=n;i++)
 				for(int j=1;j<=n;j++)
